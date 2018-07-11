@@ -16,7 +16,6 @@ initializeDataTables = ->
       buttons: [
         {
           extend: 'colvis',
-          className: 'btn btn-sm',
           text: 'Show / Hide',
           postfixButtons: [
             { extend: 'colvisGroup', text: 'Show all', show: ':hidden'},
@@ -25,7 +24,6 @@ initializeDataTables = ->
         },
         {
           extend: 'copy',
-          className: 'btn btn-sm',
           exportOptions:
             format:
               header: (str) -> $("<div>#{str}</div>").children('.search-label').first().text()
@@ -33,7 +31,6 @@ initializeDataTables = ->
         },
         {
           extend: 'csv',
-          className: 'btn btn-sm',
           exportOptions:
             format:
               header: (str) -> $("<div>#{str}</div>").children('.search-label').first().text()
@@ -41,7 +38,6 @@ initializeDataTables = ->
         },
         {
           extend: 'print',
-          className: 'btn btn-sm',
           footer: true,
           exportOptions:
             format:
