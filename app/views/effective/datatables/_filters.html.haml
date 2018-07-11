@@ -32,6 +32,6 @@
     - if datatable._scopes.present? || datatable._filters.present?
       .effective-datatables-filters-btn
         - if datatable._filters_form_required?
-          = form.button :submit, 'Apply', 'data-disable-with': 'Applying...'
+          = form.button :submit, 'Toepassen', 'data-disable-with': 'Bezig...'
         - else
-          = link_to 'Apply', '#', class: 'btn btn-primary btn-sm btn-effective-datatables-filters', 'data-apply-effective-datatables-filters': true
+          = link_to 'Toepassen', '#', class: 'btn btn-default btn-sm btn-effective-datatables-filters', 'data-apply-effective-datatables-filters': true
