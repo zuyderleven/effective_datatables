@@ -30,6 +30,13 @@ initializeDataTables = ->
             columns: buttons_export_columns
         },
         {
+          extend: 'pdf',
+          exportOptions:
+            format:
+              header: (str) -> $("<div>#{str}</div>").children('.search-label').first().text()
+            columns: buttons_export_columns
+        },
+        {
           extend: 'csv',
           exportOptions:
             format:
