@@ -23,21 +23,21 @@ initializeDataTables = ->
           ]
         },
         {
-          extend: 'copy',
+          extend: 'copyHtml5',
           exportOptions:
             format:
               header: (str) -> $("<div>#{str}</div>").children('.search-label').first().text()
             columns: buttons_export_columns
         },
         {
-          extend: 'pdf',
+          extend: 'pdfHtml5',
           exportOptions:
             format:
               header: (str) -> $("<div>#{str}</div>").children('.search-label').first().text()
             columns: buttons_export_columns
         },
         {
-          extend: 'csv',
+          extend: 'csvHtml5',
           exportOptions:
             format:
               header: (str) -> $("<div>#{str}</div>").children('.search-label').first().text()
