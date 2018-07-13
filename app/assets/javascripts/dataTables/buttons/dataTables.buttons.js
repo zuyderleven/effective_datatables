@@ -1127,7 +1127,7 @@ Buttons.defaults = {
 		},
 		button: {
 			tag: 'a',
-			// className: 'dt-button',
+			className: 'dt-button',
 			active: 'active',
 			disabled: 'disabled'
 		},

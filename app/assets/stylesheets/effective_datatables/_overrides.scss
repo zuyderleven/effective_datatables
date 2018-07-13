@@ -109,36 +109,36 @@ div.dt-buttons {
   width: auto;
 }
 
-.dt-buttons {
-  a, button {
-    border: none;
-    color: #337ab7;
-    border-color: transparent;
-    background: #fff;
-    font-size: 12px;
-    padding: 6px;
-    margin-right: 6px;
-    float: none;
-
-    &:hover,
-    &:focus {
-      border: none;
-      border-color: transparent;
-      background: #eee !important;
-    }
-
-    &:last-child { margin-right: 0px; }
-
-    &.active {
-      color: #fff;
-      background: #03428d !important;
-    }
-
-    .caret {
-      margin-bottom: 4px;
-    }
-  }
-}
+// .dt-buttons {
+//   a, button {
+//     border: none;
+//     color: #337ab7;
+//     border-color: transparent;
+//     background: #fff;
+//     font-size: 12px;
+//     padding: 6px;
+//     margin-right: 6px;
+//     float: none;
+//
+//     &:hover,
+//     &:focus {
+//       border: none;
+//       border-color: transparent;
+//       background: #eee !important;
+//     }
+//
+//     &:last-child { margin-right: 0px; }
+//
+//     &.active {
+//       color: #fff;
+//       background: #03428d !important;
+//     }
+//
+//     .caret {
+//       margin-bottom: 4px;
+//     }
+//   }
+// }
 
 // Show / hide columns button
 ul.dt-button-collection {
